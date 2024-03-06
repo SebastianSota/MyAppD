@@ -1,5 +1,6 @@
 import { NavigationContainer } from "@react-navigation/native";
-import MainRoutes from "./routes/mainroutes";
+import MainRoutes from "./framework/navigation/mainroutes";
+
 
 
 App = () => {

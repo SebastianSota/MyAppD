@@ -32,7 +32,7 @@ Login = () => {
                     AsyncStorage.setItem("usuario", JSON.stringify(data));
                     AsyncStorage.removeItem("usuario");
                     const datoAsync = await JSON.parse(AsyncStorage.getItem("usuario"));
-                    navigation.replace('Settings');
+                    navigation.replace('TabNav');
                 } else {
                     Alert.alert(
                         'Contraseña o Usuario incorrectos',

@@ -1,7 +1,7 @@
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
 import Splash from "../../presentation/screens/splash";
 import Login from "../../presentation/screens/login";
-import Settings from "../../presentation/screens/settings";
+import TabNav from "../../presentation/screens/tabNav";
 
 const Stack = createNativeStackNavigator();
 
@@ -12,8 +12,8 @@ const MainRoutes = () => {
                 component={Splash} options={{ headerShown: false }} />
             <Stack.Screen name="Login"
                 component={Login} options={{ headerShown: false }} />
-            <Stack.Screen name="Settings"
-                component={Settings} options={{ headerShown: false }} />
+            <Stack.Screen name="TabNav"
+                component={TabNav} options={{ headerShown: false }} />
         </Stack.Navigator>
     )
 }
