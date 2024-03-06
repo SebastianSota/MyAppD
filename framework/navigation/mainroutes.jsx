@@ -1,8 +1,7 @@
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
-import Login from "../screens/login";
-import Settings from "../screens/settings";
-import Splash from "../screens/splash";
-
+import Splash from "../../presentation/screens/splash";
+import Login from "../../presentation/screens/login";
+import Settings from "../../presentation/screens/settings";
 
 const Stack = createNativeStackNavigator();
 
