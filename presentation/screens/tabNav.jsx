@@ -10,9 +10,9 @@ TabNav = () => {
 
     return (
         <Tab.Navigator>
-            <Tab.Screen name="Home" component={Pokedex} options={{
+            <Tab.Screen name="Pokedex" component={Pokedex} options={{
                 headerShown: false, tabBarActiveTintColor: 'black', tabBarInactiveTintColor: 'gray', tabBarIcon: ({ color, size }) =>
-                    (<MaterialIcons name="home" size={20} color={color} />)
+                    (<MaterialIcons name="catching-pokemon" size={20} color={color} />)
             }} />
             <Tab.Screen name="Settings" component={Settings} options={{
                 headerShown: false, tabBarActiveTintColor: 'black', tabBarInactiveTintColor: 'gray', tabBarIcon: ({ color, size }) =>
@@ -20,7 +20,7 @@ TabNav = () => {
             }} />
             <Tab.Screen name="Profile" component={App} options={{
                 headerShown: false, tabBarActiveTintColor: 'black', tabBarInactiveTintColor: 'gray', tabBarIcon: ({ color, size }) =>
-                    (<MaterialIcons name="catching-pokemon" size={20} color={color} />)
+                    (<MaterialIcons name="verified-user" size={20} color={color} />)
             }} />
         </Tab.Navigator>
     );

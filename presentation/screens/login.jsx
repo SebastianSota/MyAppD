@@ -2,8 +2,8 @@ import { useNavigation } from "@react-navigation/native";
 import { Button, Card, Image } from "@rneui/themed";
 import { useState } from "react";
 import { Alert, StyleSheet, TextInput, View } from "react-native";
-import { BackendConfig } from "../config/backendconfig";
 import AsyncStorage from '@react-native-async-storage/async-storage';
+import { BackendConfig } from "../../config/backendconfig";
 
 Login = () => {
     let [userName, setUserName] = useState("");
@@ -72,7 +72,7 @@ Login = () => {
                 <Image
                     style={{ height: 200, width: 200 }}
                     source={
-                        require('../assets/userImage.png')
+                        require('../../assets/images/userImage.png')
                     } />
                 <View style={{ marginBottom: 20 }}>
                     <TextInput

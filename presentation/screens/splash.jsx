@@ -9,7 +9,7 @@ Splash = () => {
 
   useEffect(() => {
     const timeoutId = setTimeout(() => {
-      navigation.replace("Login");
+      navigation.replace("Profile");
     }, 3000);
 
     return () => clearTimeout(timeoutId);
@@ -24,7 +24,7 @@ Splash = () => {
       <LottieView
         ref={animation}
         style={{ width: 400, height: 400 }}
-        source={require("../assets/animations/Shoppingcartutez.json")}
+        source={require("../../assets/animations/Shoppingcartutez.json")}
         autoPlay
         loop={true}
       />

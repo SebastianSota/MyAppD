@@ -2,7 +2,6 @@
 import { Button, Card, Image } from '@rneui/themed';
 import { useState } from 'react';
 import { StyleSheet, Text, View, Modal, Alert, TextInput, SectionList } from 'react-native';
-import { BackendConfig } from '../config/backendconfig';
 
 Pokedex = () => {
   let [imagen, setImagen] = useState('https://static.wikia.nocookie.net/pokemon-fano/images/6/6f/Poke_Ball.png');

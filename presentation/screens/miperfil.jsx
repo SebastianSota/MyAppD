@@ -5,7 +5,7 @@ const nombre = 'Sebastian Sota Garcia'
 const correo = 'sebastiansota@utez.edu.mx'
 const ubicacion = 'Emiliano Zapata, Mor. Mex.'
 
-App = () => {
+Profile = () => {
   return (
     <View style={styles.container}>
       <Image source={{ uri: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrjkxvkQwH9K6i0npWMaW0tUH803g8Bl5BOg&usqp=CAU' }}
@@ -26,7 +26,7 @@ App = () => {
   );
 }
 
-export default App;
+export default Profile;
 
 const styles = StyleSheet.create({
   container: {
